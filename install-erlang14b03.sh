@@ -1,5 +1,5 @@
 # Thanks goes to @bryan_hunter for this install script : )
-apt-get -y install build-essential m4 libncurses5-dev openssl lobssl-dev libssh-dev unixodbc-dev libgmp3-dev libwxgtk2.8-dev libglu1-mesa-dev fop xsltproc default-jdk
+apt-get -y install build-essential m4 libncurses5-dev openssl libssl-dev libssh-dev unixodbc-dev libgmp3-dev libwxgtk2.8-dev libglu1-mesa-dev fop xsltproc default-jdk
 mkdir -p /src/erlang
 cd /src/erlang
 wget http://www.erlang.org/download/otp_src_R14B03.tar.gz

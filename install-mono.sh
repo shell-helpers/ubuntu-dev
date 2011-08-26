@@ -1,6 +1,6 @@
-cd /src
-mkdir mono-2.10
-cd mono-2.10
+cd /
+sudo mkdir mono-2.10
+sudo cd mono-2.10
 
 sudo wget --no-check-certificate https://github.com/nathanb/iws-snippets/raw/master/mono-install-scripts/ubuntu/install_mono-2.10.sh
 

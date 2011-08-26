@@ -1,12 +1,10 @@
-cd /src
-mkdir node
-cd node
-sudo apt-get install -y libssl-dev
-sudo wget http://nodejs.org/dist/node-v0.4.8.tar.gz
-tar -xvzf node-v0.4.8.tar.gz
-cd node-v0.4.8
-sudo ./configure --prefix=/opt/node48
-sudo make
-sudo make install
-echo PATH=$PATH:/opt/node48/bin >> ~/.bashrc
+sudo cd /src 
+sudo git clone git://github.com/creationix/nvm.git
+USER=$(whoami)
+sudo chown -R $USER nvm
+cd nvm
+./nvm.sh sync
+./nvm.sh install v0.4.10
+echo . /src/nvm/nvm.sh >> ~/.bashrc
+echo nvm use v0.4.10 >> ~/.bashrc
 source ~/.bashrc

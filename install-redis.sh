@@ -1,9 +1,9 @@
 cd /src
 mkdir redis
 cd redis
-sudo wget http://redis.googlecode.com/files/redis-2.2.2.tar.gz
-tar xzf redis-2.2.2.tar.gz
-cd redis-2.2.2
+sudo wget http://redis.googlecode.com/files/redis-2.2.12.tar.gz
+tar xzf redis-2.2.12.tar.gz
+cd redis-2.2.12
 sudo make
 cd src
 sudo mkdir /usr/lib/redis

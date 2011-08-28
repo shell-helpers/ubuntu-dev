@@ -10,7 +10,7 @@ These install scripts are intened to help you pull down, build and install the f
 *  node.js 0.4.8
 *  npm 0.3.17
 *  open JDK 6 (prerequisite for erlang installed via apt-get in the erlang script)
-*  rabbitmq 2.4.0 (management plugins provided in default script and as a seperate script)
+*  rabbitmq 2.4.0 (management plugins provided in default script and as a separate script)
 *  redis 2.2.2
 *  ruby 1.9.2-p136
 

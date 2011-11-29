@@ -1,10 +1,7 @@
 cd /src
 mkdir ruby
 cd ruby
-sudo wget ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
-tar -xvzf ruby-1.9.2-p180.tar.gz
-cd ruby-1.9.2-p180
-sudo ./configure
-sudo make
-sudo install
-sudo make install
+sudo bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bash_profile
+source ~/.bash_profile
+rvm install 1.9.3

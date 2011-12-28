@@ -4,7 +4,7 @@ USER=$(whoami)
 sudo chown -R $USER nvm
 cd nvm
 source nvm.sh 
-nvm install v0.6.3
+nvm install v0.6.6
 echo . /src/nvm/nvm.sh >> ~/.bashrc
-echo nvm use v0.6.3 >> ~/.bashrc
+echo nvm use v0.6.6 >> ~/.bashrc
 source ~/.bashrc
